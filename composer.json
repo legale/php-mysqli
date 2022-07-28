@@ -1,0 +1,29 @@
+{
+  "name": "legale/mysqli",
+  "description": "A real safe and convenient way to handle MySQL queries.",
+  "type": "library",
+  "keywords": [
+    "db",
+    "mysql"
+  ],
+  "homepage": "https://github.com/legale/php-mysqli",
+  "license": "bsd-2-clause",
+  "authors": [
+    {
+      "name": "legale",
+      "email": "legale.legale@gmail.com",
+      "role": "lead"
+    }
+  ],
+  "support": {
+    "issues": ""
+  },
+  "require": {
+    "php": ">=5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "legale\\mysqli\\": "src/legale/mysqli"
+    }
+  }
+}
